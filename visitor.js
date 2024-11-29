@@ -31,3 +31,6 @@ void function main() {
     s.set(new RightVisitor(4));
     console.log(JSON.stringify(s));
 }(); 
+
+// Will output: 
+// {"left":3,"right":4}
